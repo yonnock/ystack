@@ -23,7 +23,7 @@ if ! command -v npx >/dev/null 2>&1; then
     exit 1
 fi
 
-add yungweng/ystack '*'
+add yonnock/ystack '*'
 
 if [[ "${1:-}" == "--own-only" ]]; then
     exit 0
@@ -31,7 +31,7 @@ fi
 
 add t3dotgg/tstack '*'
 add mattpocock/skills '*'
-add yungweng/wt wt
+add yonnock/wt wt
 add vercel-labs/skills find-skills
 add vercel-labs/agent-desktop agent-desktop
 add yetone/kill-ai-slop kill-ai-slop
