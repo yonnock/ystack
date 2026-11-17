@@ -6,11 +6,11 @@ any other agent that reads the [Agent Skills](https://agentskills.io) format.
 ## Install
 
 ```console
-npx skills add yungweng/ystack --global --skill '*'
+npx skills add yonnock/ystack --global --skill '*'
 ```
 
 Pick single skills with `--skill unknown-unknowns test-audit`, or list them first
-with `npx skills add yungweng/ystack --list`. Update later with
+with `npx skills add yonnock/ystack --list`. Update later with
 `npx skills update --global`.
 
 ## Skills
@@ -67,14 +67,14 @@ These read local app data and need macOS.
 and Codex:
 
 ```console
-curl -fsSL https://raw.githubusercontent.com/yungweng/ystack/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/yonnock/ystack/main/install.sh | bash
 ```
 
 | Source | Skills |
 | --- | --- |
 | [t3dotgg/tstack](https://github.com/t3dotgg/tstack) | all |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | all |
-| [yungweng/wt](https://github.com/yungweng/wt) | `wt` |
+| [yonnock/wt](https://github.com/yonnock/wt) | `wt` |
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | `find-skills` |
 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | `agent-desktop` |
 | [yetone/kill-ai-slop](https://github.com/yetone/kill-ai-slop) | `kill-ai-slop` |
@@ -91,7 +91,7 @@ Edit skills in a checkout and link them into the agent directory, so changes are
 live and land in Git:
 
 ```console
-git clone git@github.com:yungweng/ystack.git
+git clone git@github.com:yonnock/ystack.git
 ln -s "$PWD/ystack/skills/test-audit" ~/.claude/skills/test-audit
 ```
 
