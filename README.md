@@ -30,6 +30,7 @@ with `npx skills add yonnock/ystack --list`. Update later with
 | `test-audit` | Finds and removes low-value, duplicative or implementation-coupled tests |
 | `pr-merge-prompt` | Turns a list of pull requests into a prompt for a sequential review and merge loop |
 | `hill-climb-prompt-maker` | Writes optimization-loop prompts with baselines, verifiers and stopping rules |
+| `overhaul` | Prepares a large change as a verified report: parallel analyses, a fact check, concepts and a staged plan on one HTML page |
 | `stacked-pr` | Builds, updates and merges stacked pull requests with GitHub's stack API |
 | `creating-team-skills` | Turns a non-obvious solution into a reusable skill for the team |
 | `fix-docker-dependencies` | Fixes "Module not found" errors from stale Docker dependency layers |
